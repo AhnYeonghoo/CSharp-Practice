@@ -5,7 +5,7 @@ namespace Hello
 {
     class MainApp
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             if (args.Length == 0)
             {
