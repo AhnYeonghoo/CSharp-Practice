@@ -4,7 +4,7 @@ namespace BoxingUnboxing
 {
     class BoxingUnboxing
     {
-        static void Main(string[] args)
+        static void MainBoxingUnboxing(string[] args)
         {
             int a = 123;
             object b = (object)a;

@@ -4,7 +4,7 @@ namespace IntegralConversion
 {
     class IntegralConversion
     {
-        static void Main(string[] args)
+        static void MainIngegralConversion(string[] args)
         {
             sbyte a = 127;
             Console.WriteLine(a);
