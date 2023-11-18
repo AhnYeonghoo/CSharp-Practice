@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 
 namespace Pattern
 {
@@ -24,7 +25,24 @@ namespace Pattern
 
 
 
-    
+    struct Audience
+    {
+        public bool IsCitizen { get; init; }
+        public int Age { get; init; }
+
+        public Audience(bool isCitizen, int age)
+        {
+            IsCitizen = isCitizen;
+            Age = age;
+        }
+
+        public void Deconstruct(out bool isCitizen, out int age)
+        {
+            isCitizen = IsCitizen;
+            age = Age;
+        }
+
+    }
     class MainApp
     {
 
@@ -124,6 +142,73 @@ namespace Pattern
                 GetNickName(
                     new Car() { Model = "Mustang", ProducedAt = new DateTime(1967, 11, 23) }));
 
+            Tuple<string, int> itemPrice = new Tuple<string, int>("espresso", 3000);
+            
+            if (itemPrice is ("espresso",  < 5000))
+            {
+                Console.WriteLine("the coffe is affordable");
+            }
+
+            var Calculate = (Audience audience) => audience switch
+            {
+                (true, < 19) => 100,
+                (true, _) => 200,
+                (false, < 19) => 200,
+                (false, _) => 400,
+            };
+
+            var a1 = new Audience(true, 10);
+            Console.WriteLine($"내국인: {a1.IsCitizen} 나이 : {a1.Age} 요금: {Calculate(a1)}");
+
+            var IsPassed =
+                (int[] scores) => scores.Sum() / scores.Length is var average
+                && Array.TrueForAll(scores, (score) => score >= 60)
+                && average >= 60;
+
+            int[] scores1 = { 90, 80, 60, 80, 70 };
+            Console.WriteLine($"{string.Join(",", scores1)}: Pass:{IsPassed(scores1)}");
+
+            var match = (int[] array) => array is [int, > 10, _];
+
+            var GetStatistics = (List<object[]> records) =>
+            {
+                var statistics = new Dictionary<string, int>();
+
+                foreach (var record in records)
+                {
+                    var (contentType, contentViews) = record switch
+                    {
+                        [_, "COMEDY", .., var views] => ("COMEDY", views),
+                        [_, "SF", .., var views] => ("ACTION", views),
+                        [_, .., var amount] => ("ETC", amount),
+                        _ => ("ETC", 0),
+                    };
+
+                    if (statistics.ContainsKey(contentType))
+                    {
+                        statistics[contentType] += (int)contentViews;
+                    }
+                    else
+                    {
+                        statistics.Add(contentType, (int)contentViews);
+                    }
+                }
+                    return statistics;
+            };
+
+            List<object[]> MovieRecords = new List<object[]>()
+            {
+                new object[] {0, "COMEDY", "Spy", 2015, 10_000},
+                new object[] {1, "COMEDY", "Scary Movie", 20_000},
+                new object[] {2, "SF", "Avengers: Inifinte War", 100_000},
+            };
+
+            var statistics = GetStatistics(MovieRecords);
+
+            foreach (var s in statistics)
+            {
+                Console.WriteLine($"{s.Key}: {s.Value}");
+            }
         }
     }
 }
