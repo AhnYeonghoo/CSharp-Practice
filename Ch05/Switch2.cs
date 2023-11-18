@@ -1,15 +1,16 @@
 ﻿using System;
+using System.Diagnostics.CodeAnalysis;
 
 namespace Switch2
 {
     class MainApp
     {
-        static void Main(string[] args)
+        static void MainSwitch2(string[] args)
         {
             object obj = null;
 
             string s = Console.ReadLine();
-            if (int.TryParse(s, out int out_i))
+            if (int.TryParse(s, out int out_i)) 
             {
                 obj = out_i;
             }
@@ -24,10 +25,10 @@ namespace Switch2
 
             switch (obj)
             {
-                case int:
+                case int i when i >= 0:
                     Console.WriteLine($"{(int)obj}는 int 형식입니다.");
                     break;
-                case float:
+                case float f when f >= 0:
                     Console.WriteLine($"{(float)obj}는 float 형식입니다.");
                     break;
                 default:

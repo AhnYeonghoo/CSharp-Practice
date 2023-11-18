@@ -6,7 +6,7 @@ namespace IncDecOperator
 {
     class MainApp
     {
-        static void Main(string[] args)
+        static void MainIncDecOperator(string[] args)
         {
             int a = 10;
             Console.WriteLine(a++);

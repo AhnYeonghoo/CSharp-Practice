@@ -4,7 +4,7 @@ namespace IfElse
 {
     class MainApp
     {
-        static void Main(string[] args)
+        static void MainIfElse(string[] args)
         {
             Console.Write("숫자를 입력하세요. : ");
 
