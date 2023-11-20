@@ -9,7 +9,7 @@ namespace NamedParameter
             Console.WriteLine($"name:{name}, phone:{phone}");
         }
 
-        static void Main(string[] args)
+        static void MainNamedParameter(string[] args)
         {
             PrintProfile(name: "박찬호", phone: "010-1234-1234");
         }
