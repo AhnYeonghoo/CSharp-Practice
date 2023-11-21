@@ -17,7 +17,7 @@ namespace DeepCopy
 
         class MainApp
         {
-            static void Main(string[] args)
+            static void MainDeepCopy(string[] args)
             {
                 Console.WriteLine("Shallow Copy");
 
