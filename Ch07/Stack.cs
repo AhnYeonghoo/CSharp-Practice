@@ -41,9 +41,17 @@ public class Point
     public Point(int x, int y) => (X, Y) = (x, y);
 }
 
+public class Pair<TFirst, TSecond>
+{
+    public TFirst First { get; }
+    public TSecond Second { get; }
+
+    public Pair(TFirst first, TSecond second)
+         => (First, Second) = (first, second);
+}
 class Example
 {
-    public static void Main(string[] args)
+    public static void MainStack(string[] args)
     {
         var s = new Acme.Collections.Stack<int>();
         s.Push(1);
