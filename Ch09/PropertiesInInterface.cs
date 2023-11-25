@@ -1,12 +1,48 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Ch09
+namespace PropertiesInInterface
 {
-    internal class PropertiesInInterface
+    interface INamedValue
     {
+        string Name
+        {
+            get;
+            set;
+        }
+
+        string Value
+        {
+            get;
+            set;
+        }
+    }
+
+    class NamedValue:INamedValue
+    {
+        public string Name
+        {
+            get;
+            set;
+        }
+
+        public string Value
+        {
+            get;
+            set;
+        }
+    }
+
+    class MainApp
+    {
+        static void MainPropertiesInInterface(string[] args)
+        {
+            NamedValue name = new NamedValue()
+            {
+                Name = "이름",
+                Value = "박상현"
+            };
+
+            
+        }
     }
 }
