@@ -5,7 +5,7 @@ namespace UsingGenericList
 {
     class MainApp
     {
-        static void Main()
+        static void MainUsingGenericList()
         {
             List<int> list = new List<int>();
             for (int i = 0; i < 5; i++)
