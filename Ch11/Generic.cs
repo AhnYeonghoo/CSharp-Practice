@@ -38,7 +38,7 @@ namespace Generic
 
     class MainApp
     {
-        static void Main()
+        static void MainGeneric()
         {
             MyList<string> str_list = new MyList<string>();
             str_list[0] = "abc";
