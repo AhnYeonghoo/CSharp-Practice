@@ -22,7 +22,7 @@ namespace Finally
             }
         }
 
-        static void Main(string[] args)
+        static void MainFinally(string[] args)
         {
             try
             {
