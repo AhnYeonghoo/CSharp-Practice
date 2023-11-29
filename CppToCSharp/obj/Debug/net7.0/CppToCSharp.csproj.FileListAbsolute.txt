@@ -1,0 +1,14 @@
+C:\Users\dksdu\OneDrive\바탕 화면\ThisIsCSharp11\CppToCSharp\bin\Debug\net7.0\CppToCSharp.exe
+C:\Users\dksdu\OneDrive\바탕 화면\ThisIsCSharp11\CppToCSharp\bin\Debug\net7.0\CppToCSharp.deps.json
+C:\Users\dksdu\OneDrive\바탕 화면\ThisIsCSharp11\CppToCSharp\bin\Debug\net7.0\CppToCSharp.runtimeconfig.json
+C:\Users\dksdu\OneDrive\바탕 화면\ThisIsCSharp11\CppToCSharp\bin\Debug\net7.0\CppToCSharp.dll
+C:\Users\dksdu\OneDrive\바탕 화면\ThisIsCSharp11\CppToCSharp\bin\Debug\net7.0\CppToCSharp.pdb
+C:\Users\dksdu\OneDrive\바탕 화면\ThisIsCSharp11\CppToCSharp\obj\Debug\net7.0\CppToCSharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dksdu\OneDrive\바탕 화면\ThisIsCSharp11\CppToCSharp\obj\Debug\net7.0\CppToCSharp.AssemblyInfoInputs.cache
+C:\Users\dksdu\OneDrive\바탕 화면\ThisIsCSharp11\CppToCSharp\obj\Debug\net7.0\CppToCSharp.AssemblyInfo.cs
+C:\Users\dksdu\OneDrive\바탕 화면\ThisIsCSharp11\CppToCSharp\obj\Debug\net7.0\CppToCSharp.csproj.CoreCompileInputs.cache
+C:\Users\dksdu\OneDrive\바탕 화면\ThisIsCSharp11\CppToCSharp\obj\Debug\net7.0\CppToCSharp.dll
+C:\Users\dksdu\OneDrive\바탕 화면\ThisIsCSharp11\CppToCSharp\obj\Debug\net7.0\refint\CppToCSharp.dll
+C:\Users\dksdu\OneDrive\바탕 화면\ThisIsCSharp11\CppToCSharp\obj\Debug\net7.0\CppToCSharp.pdb
+C:\Users\dksdu\OneDrive\바탕 화면\ThisIsCSharp11\CppToCSharp\obj\Debug\net7.0\CppToCSharp.genruntimeconfig.cache
+C:\Users\dksdu\OneDrive\바탕 화면\ThisIsCSharp11\CppToCSharp\obj\Debug\net7.0\ref\CppToCSharp.dll
