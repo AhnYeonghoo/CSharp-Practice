@@ -25,7 +25,7 @@ namespace DelegateChains
 
     class MainApp
     {
-        static void Main()
+        static void MainDelegateChains()
         {
             Notifier notifier = new Notifier();
             EventListener listener1 = new EventListener("Listener1");

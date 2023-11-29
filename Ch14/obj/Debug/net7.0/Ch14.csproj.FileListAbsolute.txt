@@ -1,0 +1,14 @@
+C:\Users\dksdu\OneDrive\바탕 화면\ThisIsCSharp11\Ch14\bin\Debug\net7.0\Ch14.exe
+C:\Users\dksdu\OneDrive\바탕 화면\ThisIsCSharp11\Ch14\bin\Debug\net7.0\Ch14.deps.json
+C:\Users\dksdu\OneDrive\바탕 화면\ThisIsCSharp11\Ch14\bin\Debug\net7.0\Ch14.runtimeconfig.json
+C:\Users\dksdu\OneDrive\바탕 화면\ThisIsCSharp11\Ch14\bin\Debug\net7.0\Ch14.dll
+C:\Users\dksdu\OneDrive\바탕 화면\ThisIsCSharp11\Ch14\bin\Debug\net7.0\Ch14.pdb
+C:\Users\dksdu\OneDrive\바탕 화면\ThisIsCSharp11\Ch14\obj\Debug\net7.0\Ch14.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dksdu\OneDrive\바탕 화면\ThisIsCSharp11\Ch14\obj\Debug\net7.0\Ch14.AssemblyInfoInputs.cache
+C:\Users\dksdu\OneDrive\바탕 화면\ThisIsCSharp11\Ch14\obj\Debug\net7.0\Ch14.AssemblyInfo.cs
+C:\Users\dksdu\OneDrive\바탕 화면\ThisIsCSharp11\Ch14\obj\Debug\net7.0\Ch14.csproj.CoreCompileInputs.cache
+C:\Users\dksdu\OneDrive\바탕 화면\ThisIsCSharp11\Ch14\obj\Debug\net7.0\Ch14.dll
+C:\Users\dksdu\OneDrive\바탕 화면\ThisIsCSharp11\Ch14\obj\Debug\net7.0\refint\Ch14.dll
+C:\Users\dksdu\OneDrive\바탕 화면\ThisIsCSharp11\Ch14\obj\Debug\net7.0\Ch14.pdb
+C:\Users\dksdu\OneDrive\바탕 화면\ThisIsCSharp11\Ch14\obj\Debug\net7.0\Ch14.genruntimeconfig.cache
+C:\Users\dksdu\OneDrive\바탕 화면\ThisIsCSharp11\Ch14\obj\Debug\net7.0\ref\Ch14.dll
