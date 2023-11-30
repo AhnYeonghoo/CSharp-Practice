@@ -4,7 +4,7 @@ namespace FuncTest
 {
     class MainApp
     {
-        static void Main()
+        static void MainFuncTest()
         {
             Func<int> func1 = () => 10;
             Console.WriteLine(func1());
