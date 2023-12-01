@@ -12,7 +12,7 @@ namespace GroupBy
 
     class MainApp
     {
-        static void Main(string[] args)
+        static void MainGroupBy(string[] args)
         {
             Profile[] arrProfile =
             {
