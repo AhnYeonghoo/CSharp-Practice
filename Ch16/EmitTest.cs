@@ -6,7 +6,7 @@ namespace EmitTest
 {
     public class MainApp
     {
-        public static void Main(string[] args)
+        public static void MainEmitTest(string[] args)
         {
             AssemblyBuilder newAssembly =
                 AssemblyBuilder.DefineDynamicAssembly(
