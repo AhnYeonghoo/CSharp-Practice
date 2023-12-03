@@ -5,7 +5,7 @@ namespace BinaryFile
 {
     class MainApp
     {
-        static void Main(string[] args)
+        static void MainBinaryFIle(string[] args)
         {
             using (BinaryWriter bw =
                 new BinaryWriter(new FileStream("a.dat", FileMode.Create)))

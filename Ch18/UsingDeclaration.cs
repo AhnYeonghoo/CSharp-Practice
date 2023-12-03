@@ -18,7 +18,7 @@ namespace UsingDeclaration
                 Console.Write("{0,-13} : ", "Byte array");
 
                 foreach (byte d in wBytes)
-                    Console.Write("{0:X2} ", b);
+                    Console.Write("{0:X2} ", d);
                 Console.WriteLine();
 
                 outStream.Write(wBytes, 0, wBytes.Length);

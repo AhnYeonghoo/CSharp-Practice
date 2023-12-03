@@ -5,7 +5,7 @@ namespace SeqNRand
 {
     class MainApp
     {
-        static void Main(string[] args)
+        static void MainSeqNRand(string[] args)
         {
             Stream outStream = new FileStream("a.dat", FileMode.Create);
             Console.WriteLine($"Position : {outStream.Position}");
